@@ -13,6 +13,8 @@
 		F7943AE92500BCD900612D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7943AE82500BCD900612D5F /* Assets.xcassets */; };
 		F7943AEC2500BCD900612D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7943AEB2500BCD900612D5F /* Preview Assets.xcassets */; };
 		F7943AEF2500BCD900612D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7943AED2500BCD900612D5F /* LaunchScreen.storyboard */; };
+		F7943AF72500BD3000612D5F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7943AF62500BD3000612D5F /* Login.swift */; };
+		F7943AF92500BF2300612D5F /* SignOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7943AF82500BF2300612D5F /* SignOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F7943AEB2500BCD900612D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7943AEE2500BCD900612D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7943AF02500BCD900612D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7943AF62500BD3000612D5F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F7943AF82500BF2300612D5F /* SignOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F7943AED2500BCD900612D5F /* LaunchScreen.storyboard */,
 				F7943AF02500BCD900612D5F /* Info.plist */,
 				F7943AEA2500BCD900612D5F /* Preview Content */,
+				F7943AF62500BD3000612D5F /* Login.swift */,
+				F7943AF82500BF2300612D5F /* SignOut.swift */,
 			);
 			path = LoginAndLogout;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7943AE32500BCD800612D5F /* AppDelegate.swift in Sources */,
+				F7943AF92500BF2300612D5F /* SignOut.swift in Sources */,
 				F7943AE52500BCD800612D5F /* SceneDelegate.swift in Sources */,
 				F7943AE72500BCD800612D5F /* ContentView.swift in Sources */,
+				F7943AF72500BD3000612D5F /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
